@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="算法 数据结构," />
 
 
 
@@ -84,15 +84,22 @@
 
 
 
-<meta name="description" content="致良知, 知行合一">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Chen_的博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="删除
+
+1234567891011int ListDelete(List * L, int pos) &amp;#123;    if (pos&amp;lt;0 || pos&amp;gt;L-&amp;gt;length-1) &amp;#123;        printf(&quot;删除位置不合法\n&quot;);        return ERROR;    &amp;#125;    int *q = L-&amp;gt;elem + pos;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="顺序表二">
+<meta property="og:url" content="http://yoursite.com/2016/09/16/顺序表二/index.html">
 <meta property="og:site_name" content="Chen_的博客">
-<meta property="og:description" content="致良知, 知行合一">
+<meta property="og:description" content="删除
+
+1234567891011int ListDelete(List * L, int pos) &amp;#123;    if (pos&amp;lt;0 || pos&amp;gt;L-&amp;gt;length-1) &amp;#123;        printf(&quot;删除位置不合法\n&quot;);        return ERROR;    &amp;#125;    int *q = L-&amp;gt;elem + pos;">
+<meta property="og:updated_time" content="2016-09-17T03:25:29.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chen_的博客">
-<meta name="twitter:description" content="致良知, 知行合一">
+<meta name="twitter:title" content="顺序表二">
+<meta name="twitter:description" content="删除
+
+1234567891011int ListDelete(List * L, int pos) &amp;#123;    if (pos&amp;lt;0 || pos&amp;gt;L-&amp;gt;length-1) &amp;#123;        printf(&quot;删除位置不合法\n&quot;);        return ERROR;    &amp;#125;    int *q = L-&amp;gt;elem + pos;">
 
 
 
@@ -113,9 +120,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/09/16/顺序表二/"/>
 
-  <title> Chen_的博客 </title>
+  <title> 顺序表二 | Chen_的博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -136,9 +143,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -225,9 +230,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -247,10 +252,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/09/16/顺序表二/" itemprop="url">
-                  顺序表二
-                </a>
+                顺序表二
               
             
           </h1>
@@ -309,9 +311,7 @@
       
 
       
-        
-          
-            <ul>
+        <ul>
 <li>删除</li>
 </ul>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">ListDelete</span><span class="params">(List * L, <span class="keyword">int</span> pos)</span> </span>&#123;</div><div class="line">    <span class="keyword">if</span> (pos&lt;<span class="number">0</span> || pos&gt;L-&gt;length<span class="number">-1</span>) &#123;</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"删除位置不合法\n"</span>);</div><div class="line">        <span class="keyword">return</span> ERROR;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">int</span> *q = L-&gt;elem + pos;</div><div class="line">    <span class="keyword">int</span> *p = L-&gt;elem + L-&gt;length - <span class="number">1</span>;</div><div class="line">    <span class="keyword">for</span> (++q; q&lt;=p; ++q) *(q<span class="number">-1</span>) = *q;</div><div class="line">    --L-&gt;length;</div><div class="line">    <span class="keyword">return</span> OK;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -333,286 +333,59 @@
 </blockquote>
 <p>.</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/09/15/顺序表一/" itemprop="url">
-                  顺序表一
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-15T09:17:22+08:00" content="2016-09-15">
-              2016-09-15
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/数据结构与算法/" itemprop="url" rel="index">
-                    <span itemprop="name">数据结构与算法</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
+            <a href="/tags/算法-数据结构/" rel="tag">#算法 数据结构</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>逻辑结构: 按顺序连续排列; 物理结构: 在内存中按顺序连续存储;  顺序表的逻辑结构和物理结构一致.</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">define</span> C_TRUE 0</span></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> C_FALSE 0</span></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> OK 1</span></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> ERROR 0</span></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> OVERFLOW -2</span></div><div class="line"></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> LIST_INIT_SIZE 100 <span class="comment">// 线性表存储空间的初始分配量</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> LISTINCREMENT 10 <span class="comment">// 线性表存储空间的分配增量</span></span></div><div class="line"></div><div class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">int</span> *elem; <span class="comment">// 首地址指针</span></div><div class="line">    <span class="keyword">int</span> length; <span class="comment">// 长度</span></div><div class="line">    <span class="keyword">int</span> listsize; <span class="comment">// 当前分配的存储容量</span></div><div class="line">&#125;List;</div></pre></td></tr></table></figure>
-<ul>
-<li>创建空表</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">ListInit</span><span class="params">(List *L)</span> </span>&#123;</div><div class="line">    L-&gt;elem = (<span class="keyword">int</span> *)<span class="built_in">malloc</span>(LIST_INIT_SIZE *<span class="keyword">sizeof</span>(<span class="keyword">int</span>));</div><div class="line">    <span class="keyword">if</span> (<span class="literal">NULL</span> == L-&gt;elem) <span class="built_in">exit</span>(OVERFLOW);</div><div class="line">    L-&gt;length = <span class="number">0</span>;</div><div class="line">    L-&gt;listsize = LIST_INIT_SIZE;</div><div class="line">    <span class="keyword">return</span> OK;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<ul>
-<li>追加元素</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">ListAdd</span><span class="params">(List *L, <span class="keyword">int</span> e)</span> </span>&#123;</div><div class="line">    <span class="keyword">if</span> (L-&gt;length &gt;= L-&gt;listsize) &#123;</div><div class="line">        <span class="keyword">int</span> *newbase = (<span class="keyword">int</span> *)<span class="built_in">realloc</span>(L-&gt;elem, (L-&gt;listsize + LISTINCREMENT) * <span class="keyword">sizeof</span>(<span class="keyword">int</span>));</div><div class="line">        <span class="keyword">if</span> (!newbase) <span class="built_in">exit</span>(OVERFLOW);</div><div class="line">        L-&gt;elem = newbase;</div><div class="line">        L-&gt;listsize += LISTINCREMENT;</div><div class="line">    &#125;</div><div class="line">    L-&gt;elem[L-&gt;length] = e;</div><div class="line">    L-&gt;length++;</div><div class="line">    <span class="keyword">return</span> OK;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<ul>
-<li>插入元素</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 在第i个元素之前插入一个元素elem</span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">ListInsert</span><span class="params">(List *L, <span class="keyword">int</span> i, <span class="keyword">int</span> e)</span> </span>&#123;</div><div class="line">    <span class="comment">// 保证i合法, i可以插到最后一个元素后面, 假定插入最后一个元素后面一个元素前面</span></div><div class="line">    <span class="keyword">if</span> (i&lt;<span class="number">1</span> || i&gt;L-&gt;length + <span class="number">1</span>) &#123;</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"位置不合法"</span>);</div><div class="line">        <span class="keyword">return</span> ERROR;</div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    <span class="keyword">if</span> (L-&gt;length &gt;= L-&gt;listsize) <span class="comment">// 存储空间满, 增加分配</span></div><div class="line">    &#123;</div><div class="line">        <span class="comment">/* code */</span></div><div class="line">        <span class="keyword">int</span> *newbase = (<span class="keyword">int</span> *)<span class="built_in">realloc</span>(L-&gt;elem, (L-&gt;listsize + LISTINCREMENT) * <span class="keyword">sizeof</span>(<span class="keyword">int</span>));</div><div class="line">        <span class="keyword">if</span> (!newbase) <span class="built_in">exit</span>(OVERFLOW); <span class="comment">// OVERFLOW 内存溢出</span></div><div class="line">        L-&gt;elem = newbase; <span class="comment">// 新基址</span></div><div class="line">        L-&gt;listsize += LISTINCREMENT;</div><div class="line">    &#125;</div><div class="line">   </div><div class="line">    <span class="comment">// 插入的位置, 这里的位置不是数组元素下标, 而是实际物理地址,也可以用下标实现 </span></div><div class="line">    <span class="keyword">int</span> *q = &amp;(L-&gt;elem[i - <span class="number">1</span>]);</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> *p = &amp;(L-&gt;elem[L-&gt;length - <span class="number">1</span>]); p &gt;= q; --p) &#123;</div><div class="line">        *(p + <span class="number">1</span>) = *p;</div><div class="line">    &#125;</div><div class="line">    *q = e;</div><div class="line">    L-&gt;length++;</div><div class="line">    <span class="keyword">return</span> OK;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<ul>
-<li>遍历</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">void</span> <span class="title">ListTraversal</span><span class="params">(List L)</span> </span>&#123;</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i&lt;L.length; i++) &#123;</div><div class="line">        <span class="built_in">printf</span>(<span class="string">"长度为:%d, 下标为%d的元素: %d\n"</span>, L.length ,i,L.elem[i]);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/09/15/顺序表一/" rel="next" title="顺序表一">
+                <i class="fa fa-chevron-left"></i> 顺序表一
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2016/09/15/编程是否需要学习数据结构/" itemprop="url">
-                  程序猿是否需要学习数据结构
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-15T00:44:37+08:00" content="2016-09-15">
-              2016-09-15
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/数据结构与算法/" itemprop="url" rel="index">
-                    <span itemprop="name">数据结构与算法</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <blockquote>
-<p>关于数据结构和算法一直以来有两种不同的观点,一种觉得很重要,是一个程序猿必备的知识,另一种认为不学不影响自己开发出一个新的功能.</p>
-<p>编程需要学习数据结构和算法吗?</p>
-<p>说点我的浅见, 数据结构和算法作用是什么,说改变了程序猿的编程思维不为过,学过的程序猿会在编程的过程中考虑到质量,考虑到效率,在编码时脑海中会有一个性能曲线.</p>
-<p>有人说现在的设备硬件性能高,不用考虑效率问题,这观点不对.举个例子:“汉诺塔”问题, 时间复杂度 O(n)=2^n,复杂程度(简单理解为需要递归或者循环的次数)呈指数级增长,无论硬件多么强大都不可能处理n过大的情况.</p>
-<p>如果同一个问题有两种不同的解法,我们的解法复杂度是O(n)=2^n, 最优的解法复杂度是O(n)=2n,在n小的时候差距不是很明显,一旦n很大时所消耗的内存和时间都不在一个级别上.而且效率是一个积少成多的过程,程序的每一处都不在乎效率, 整个代码的质量就差了一个档次.</p>
-<p>区分码农和程序猿的两大基本要素是数据结构算法和编程思想,至于对语法和对api的了解体现的只是经验而不是素养.所以猿们还是应该认真学习数据结构算法的.</p>
-</blockquote>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -620,6 +393,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -639,8 +416,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://ww2.sinaimg.cn/large/7f318987jw1f72m7gv450j205k05kmx1.jpg"
@@ -690,6 +476,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -786,6 +583,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
